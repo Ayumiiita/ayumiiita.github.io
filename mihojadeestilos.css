@@ -1,0 +1,248 @@
+body {
+    background-image: url(fondo-abstracto-textura.jpg)
+}
+h1{
+    font-size: x-large;
+    font-family: 'arial';
+    font-weight: bold;
+    color:rgb(235, 174, 17) ;
+    text-align: center;
+}
+img{
+  display: block;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+    display: flex;
+
+}
+ul{
+    list-style-type: none;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+li {
+    display: flex;
+    
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    font-family: 'Arial';
+    font-size: large;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    border-bottom-style: solid;
+    border-radius: 0%;
+    background-color: rgba(240, 255, 255, 0);
+}
+   
+form {
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'arial';
+    color:rgb(235, 174, 17);
+    text-align:center;    
+    
+}
+
+label {
+    font-size: larger;
+    text-align: center;
+    color:rgb(235, 174, 17);
+}
+
+select{   
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black
+}
+
+input{
+    object-position: 50%;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    border-radius: 40px;   
+}
+
+#play {width: min-content;height: min-content;}
+
+
+article{
+    font-size: medium;
+    font-family: 'arial';
+    text-align: center;
+
+}
+
+img.redimension {
+    width:700px;
+    height:450px;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-size:large;
+    color: aliceblue;
+    display: flex;    
+}
+footer:hover{
+    
+    border-radius: 30px;
+}
+footer{
+    position: relative;
+}
+
+
+
+#CONTENIDO { width: 1000px; margin: 0 auto; }
+#main {width: 600; margin:auto; }
+
+
+img.evocador{
+    width: 700px;
+    height: 450px;
+}
+.section1 {
+    color: aliceblue;
+    width: 700px;
+    margin: 0 auto; 
+
+}
+.texto{
+    text-align: justify;
+    
+}
+
+.tabla{
+    width: 700px;
+    margin: 0 auto;
+    border: 2px rgb(238, 187, 57) solid;
+}
+
+tbody{
+    font-size: large;
+    text-align: center;
+}
+td{
+    color:aliceblue;
+    font-family: 'Arial';
+    border: 1px rgb(236, 208, 139) solid;   
+}
+
+.estilop2{
+    color: aliceblue;
+    width: 700px;
+    margin: 0 auto; 
+
+}
+
+.pf2{
+    text-align: justify;
+}
+img.fot2{
+    width: 700px;
+    height: 450px;
+}
+
+.form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  .form input{
+    width: 70%;
+    height: 30px;
+    margin: .5rem
+  }
+  
+  .form button{
+    padding: .5em 1em;
+    background-color:rgb(235, 174, 17);
+    cursor: pointer;
+    border-radius: 30px;
+    border: black 1px solid;
+    color:aliceblue;
+    
+  }
+  
+  .form-container{
+    max-width:700px;
+    margin: 0 auto;
+  }
+  
+  .form-element {
+    display: block;
+    width: 80%;
+    margin: 1rem auto;
+    
+  }
+
+.social{
+    margin: 0 auto;
+    max-width: 250px;
+    height: 70px;
+    display: inline-flex;
+    margin-top: 40px; 
+     
+}
+a:hover {
+    
+    background-color: #f4f3f1dc;
+    margin-bottom: 30px;
+    max-width: 250px;
+    border-radius: 30px;  
+}	
+
+.rating label input {
+    display: none;
+  }
+  .rating label .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(37, 132, 209, 0.423);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+    
+  }
+
+  .rating label input:checked + .icon {
+    background-color: rgb(235, 174, 17);
+    opacity: calc(0,7);
+  }
+ 
+  /* Checkbox de puntuación */
+  .rating-checkbox input[type="checkbox"] {
+      display: none;
+  }
+
+ .bloque{
+    background-color: rgba(240, 248, 255, 0.22);
+    border-radius: 30px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+ }
+
